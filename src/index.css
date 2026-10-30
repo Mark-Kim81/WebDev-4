@@ -1,0 +1,70 @@
+.app {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(189px, 1fr));
+  gap: 1.25rem;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.no-poster {
+  aspect-ratio: 2 / 3;
+  display: grid;
+  place-items: center;
+  background: #ddd;
+  border-radius: 8px;
+}
+
+.error {
+  color: crimson
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  gap: 0.5 rem;
+  margin-bottom: 2rem;
+}
+
+p {
+  text-align: center;
+}
+
+.empty {
+  text-align: center;
+  font-size: 1.25rem;
+  color: crimson;
+  margin-top: 2rem;
+}
+
+.card {
+  cursor: pointer;
+}
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: gray;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 8px;
+}
